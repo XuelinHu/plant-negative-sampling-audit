@@ -1,0 +1,37 @@
+{
+  "revised_utc": "2026-11-18T03:17:36.868459+00:00",
+  "original_registration": {
+    "experiment_sha256": "f766e251ef2da2e88efdf99e7f46cdc9e362709e880d35de45165884837851aa",
+    "common_sha256": "7d2ff61c57c10fbcebb4ebc708f3632dc137abb13949d0ccbfb521633c7fbe57",
+    "pu_sha256": "265adf0bfa6698075a2ada9a360b530ac471564c8ec8edbafefb882149ff24da",
+    "protocol_sha256": "8fc83f0db17467a54a28924f8c9e0184ce917e18d633f009a6e4c01a8e3d6c4e"
+  },
+  "revisions": [
+    {
+      "file": "docs/scope_audit_protocol_20261118.md",
+      "change": "bootstrap unit clarified as common-feasible job, preserving target and split composition; prediction budgets fixed at 0.10 and 0.30",
+      "reason": "analysis-method clarification made before aggregate results were inspected"
+    },
+    {
+      "file": "docs/scope_audit_addendum_20261118.md",
+      "change": "added a pooled Clopper-Pearson whole-pool certificate alongside the registered stratified certificate",
+      "reason": "per-stratum Bonferroni bound was visibly conservative in the two-job debug run; aggregate certification results had not been examined"
+    },
+    {
+      "file": "docs/scope_audit_protocol_20261118.md",
+      "change": "added a pre-declared high-assurance downstream sensitivity at a=0.20, epsilon=0.10",
+      "reason": "the primary a=0.05, epsilon=0.05 stratified point certifies no rice jobs; the sensitivity was fixed before the new downstream predictions were examined"
+    }
+  ],
+  "current": {
+    "experiment_sha256": "7eb2f35aa86559b90c1435b59e18e72e3a904ab8b2644af1cb38119de2a65fe3",
+    "common_sha256": "7d2ff61c57c10fbcebb4ebc708f3632dc137abb13949d0ccbfb521633c7fbe57",
+    "pu_sha256": "265adf0bfa6698075a2ada9a360b530ac471564c8ec8edbafefb882149ff24da",
+    "protocol_sha256": "d7fe83a160e7c6651c2ccb792fd9d177a3ee373d0cddacb0d783df7ef6331eb9",
+    "addendum_sha256": "ef1ee6f57054d17ecedf0e9fe4c6b30fcf3490ee755685a48bb8e3c3526b8ba1"
+  },
+  "registered_jobs_unchanged": true,
+  "registered_budgets_unchanged": true,
+  "registered_policies_unchanged": true,
+  "registered_epsilons_unchanged": true
+}

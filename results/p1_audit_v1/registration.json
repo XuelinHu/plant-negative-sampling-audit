@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-11-18T04:16:13.519311+00:00",
+  "protocol_sha256": "41672c0e265e82a54b87af31f28dca6e926057ee4e6c0590c2316337edc4c75e",
+  "script_sha256": "3564bd7a86dd415839f9dc5fd7d6fea19ffed1d383143f416c83bee4ab4fcbea",
+  "figure_script_sha256": "6a6504d0d714b7797e3c9f9093cb771b9e8f7e0b31b9124dfa390a1e811916c8",
+  "data": {
+    "zero_shot_scores": {
+      "url": "https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/zero_shot_substitutions_scores.zip",
+      "path": "data/raw/p1/proteingym/zero_shot_substitutions_scores.zip",
+      "size": 1911045703,
+      "sha256": "3fd7cdb5e78f1d43cabfabfeb6578c252b63af23ba2ab44db0094dc3a42de36d"
+    },
+    "dms": {
+      "url": "https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/DMS_ProteinGym_substitutions.zip",
+      "path": "data/raw/p1/proteingym/DMS_ProteinGym_substitutions_v1.3.zip",
+      "size": 43021128,
+      "sha256": "3a83766254ac9ac9984ec25cb73c6e010ea4418f5e35f143933e6b6e6473b921"
+    },
+    "summary": {
+      "url": "https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/benchmarks/DMS_zero_shot/substitutions/Spearman/Summary_performance_DMS_substitutions_Spearman.csv",
+      "path": "data/raw/p1/proteingym/Summary_performance_DMS_substitutions_Spearman.csv",
+      "size": 44132,
+      "sha256": "ee61a7c09efbfbd8d9a6c9355092c798032a578fa58c6f6256b5da8778555fd4"
+    },
+    "dms_level": {
+      "url": "https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/benchmarks/DMS_zero_shot/substitutions/Spearman/DMS_substitutions_Spearman_DMS_level.csv",
+      "path": "data/raw/p1/proteingym/DMS_substitutions_Spearman_DMS_level.csv",
+      "size": 141235,
+      "sha256": "f432423b87f79ac9778dfac86e3d95be041d246bc618dc0a406b35b0b7466437"
+    },
+    "metadata": {
+      "url": "https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv",
+      "path": "data/raw/p1/proteingym/DMS_substitutions.csv",
+      "size": 208734,
+      "sha256": "a8f498011532a74aa9fe556a50555a75e928c5837d19c06a87592ae04049b308"
+    }
+  },
+  "design": {
+    "assays": 217,
+    "quantiles": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "high_quantile": 0.75,
+    "low_quantile": 0.25,
+    "official_metric": "Average Spearman",
+    "top_k": 10
+  },
+  "notes": [
+    "ProteinGym assays are not plant functional data.",
+    "The audit is a zero-shot tail audit; models are not retrained.",
+    "AIDO Protein-RAG (official rank 1) and Protriever (rank 8) are absent from the public score archive."
+  ]
+}

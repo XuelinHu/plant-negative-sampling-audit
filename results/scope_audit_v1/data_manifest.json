@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-11-17T03:17:19.836493+00:00",
+  "sources": [
+    {
+      "name": "rice",
+      "source": "data/processed/plant_counterinference/source_tables_v1/kitbase2026_supplement/Supplementary-Table-4.xlsx",
+      "source_sha256": "4e8ca39186aad4f593e5b988d64f5c2ab38cbf2e730983c52eb8013d3d58ca54",
+      "cache_sha256": "24bcd3c1f6c218bcc9bcd1f87005b595c198b24ab69ece4fbede6ae44962b665",
+      "entities": 2878,
+      "groups": 2878,
+      "released_targets": 9,
+      "primary_targets": 9,
+      "sampling_targets": 9,
+      "model_targets": 6,
+      "positive_cells": 2097,
+      "source_zero_cells": 6179,
+      "observed_cells": 8276,
+      "unknown_cells": 17626,
+      "matrix_cells": 25902
+    },
+    {
+      "name": "alga",
+      "source": "data/processed/plant_counterinference/source_tables_v1/chlamy_conditions2022_pmc_supplement/41588_2022_1052_MOESM4_ESM.xlsx",
+      "source_sha256": "ac78244c0501ac2b2b6455c3b389767d8d32ac6eb9a10fd7053eb51105d209ad",
+      "cache_sha256": "bd3dd479c3691c7bb7a131e28e48ce8c7633f250a88b51a65bcb3af170a03742",
+      "entities": 15582,
+      "groups": 15582,
+      "released_targets": 223,
+      "primary_targets": 222,
+      "sampling_targets": 85,
+      "model_targets": 3,
+      "positive_cells": 521,
+      "source_zero_cells": 1273432,
+      "observed_cells": 1273953,
+      "unknown_cells": 2200833,
+      "matrix_cells": 3474786
+    }
+  ],
+  "parser_sha256": "f274821e97eacca9ecdfefbbe04a1e88b837b3b60e558137cb986da96b427dc8",
+  "new_workbook_read": true,
+  "previous_model_or_comparison_results_read": false,
+  "all_sources_previously_exposed": true
+}

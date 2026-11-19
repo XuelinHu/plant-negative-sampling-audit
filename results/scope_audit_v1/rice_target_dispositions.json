@@ -1,0 +1,110 @@
+[
+  {
+    "target": "Germination Rate",
+    "primary": true,
+    "target_index": 0,
+    "control_id": "",
+    "treatment_id": "",
+    "positive": 355,
+    "source_zero": 1503,
+    "unknown": 1020,
+    "sampling_eligible": true,
+    "model_eligible": true
+  },
+  {
+    "target": "Albino Plant",
+    "primary": true,
+    "target_index": 1,
+    "control_id": "",
+    "treatment_id": "",
+    "positive": 31,
+    "source_zero": 2564,
+    "unknown": 283,
+    "sampling_eligible": true,
+    "model_eligible": true
+  },
+  {
+    "target": "Tiller Number",
+    "primary": true,
+    "target_index": 2,
+    "control_id": "",
+    "treatment_id": "",
+    "positive": 98,
+    "source_zero": 244,
+    "unknown": 2536,
+    "sampling_eligible": true,
+    "model_eligible": true
+  },
+  {
+    "target": "Days to Heading",
+    "primary": true,
+    "target_index": 3,
+    "control_id": "",
+    "treatment_id": "",
+    "positive": 3,
+    "source_zero": 474,
+    "unknown": 2401,
+    "sampling_eligible": true,
+    "model_eligible": false
+  },
+  {
+    "target": "Seed number",
+    "primary": true,
+    "target_index": 4,
+    "control_id": "",
+    "treatment_id": "",
+    "positive": 27,
+    "source_zero": 47,
+    "unknown": 2804,
+    "sampling_eligible": true,
+    "model_eligible": true
+  },
+  {
+    "target": "Seed Yield",
+    "primary": true,
+    "target_index": 5,
+    "control_id": "",
+    "treatment_id": "",
+    "positive": 1522,
+    "source_zero": 1184,
+    "unknown": 172,
+    "sampling_eligible": true,
+    "model_eligible": true
+  },
+  {
+    "target": "Filled Grain Number",
+    "primary": true,
+    "target_index": 6,
+    "control_id": "",
+    "treatment_id": "",
+    "positive": 16,
+    "source_zero": 57,
+    "unknown": 2805,
+    "sampling_eligible": true,
+    "model_eligible": false
+  },
+  {
+    "target": "Panicle Weight",
+    "primary": true,
+    "target_index": 7,
+    "control_id": "",
+    "treatment_id": "",
+    "positive": 42,
+    "source_zero": 31,
+    "unknown": 2805,
+    "sampling_eligible": true,
+    "model_eligible": true
+  },
+  {
+    "target": "Plant Height",
+    "primary": true,
+    "target_index": 8,
+    "control_id": "",
+    "treatment_id": "",
+    "positive": 3,
+    "source_zero": 75,
+    "unknown": 2800,
+    "sampling_eligible": true,
+    "model_eligible": false
+  }
+]

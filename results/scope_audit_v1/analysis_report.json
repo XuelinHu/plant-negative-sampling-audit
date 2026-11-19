@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-11-18T03:22:07.871222+00:00",
+  "registered_jobs": 1410,
+  "evaluable_jobs": 660,
+  "not_evaluable_jobs": 750,
+  "sampling_rows": 13200,
+  "certification_rows": 2640,
+  "prediction_rows": 4594,
+  "bootstrap_replicates": 1000,
+  "bootstrap_unit": "common-feasible job, preserving target and split composition",
+  "status_counts": {
+    "alga__complete": 549,
+    "alga__not_evaluable": 726,
+    "rice__complete": 111,
+    "rice__not_evaluable": 24
+  },
+  "old_results_used_for_new_estimands": false,
+  "natural_pool_purity_claimed": false,
+  "certification_assumption": "random sampling within strata and exchangeability of checked and unchecked candidates"
+}

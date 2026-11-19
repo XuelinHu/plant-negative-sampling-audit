@@ -1,0 +1,56 @@
+{
+  "assays_in_scores": 217,
+  "assays_matched": 217,
+  "models_in_scores": 96,
+  "models_with_official_rank": 267,
+  "quantiles": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "high_quantile": 0.75,
+  "low_quantile": 0.25,
+  "data": {
+    "scores_sha256": "3fd7cdb5e78f1d43cabfabfeb6578c252b63af23ba2ab44db0094dc3a42de36d",
+    "dms_sha256": "3a83766254ac9ac9984ec25cb73c6e010ea4418f5e35f143933e6b6e6473b921",
+    "summary_sha256": "ee61a7c09efbfbd8d9a6c9355092c798032a578fa58c6f6256b5da8778555fd4",
+    "dms_level_sha256": "f432423b87f79ac9778dfac86e3d95be041d246bc618dc0a406b35b0b7466437",
+    "metadata_sha256": "a8f498011532a74aa9fe556a50555a75e928c5837d19c06a87592ae04049b308"
+  },
+  "q0.05": {
+    "models": 89,
+    "spearman_official_vs_b_plus": -0.9001153510521316,
+    "spearman_official_vs_b_plus_p": 3.807347741182351e-33,
+    "spearman_official_vs_e_H": -0.9007027325668577,
+    "spearman_official_vs_e_H_p": 2.983753972526465e-33,
+    "top10_mean_b_plus": 0.030880123738563744,
+    "rest_mean_b_plus": 0.08171976112142915,
+    "mannwhitney_u": 16.0,
+    "mannwhitney_p": 1.1256596865460486e-08,
+    "top10_lower": true
+  },
+  "q0.1": {
+    "models": 89,
+    "spearman_official_vs_b_plus": -0.9419386174557474,
+    "spearman_official_vs_b_plus_p": 5.292206833096512e-43,
+    "spearman_official_vs_e_H": -0.9384909433475721,
+    "spearman_official_vs_e_H_p": 6.0446045552954e-42,
+    "top10_mean_b_plus": 0.03905054354984111,
+    "rest_mean_b_plus": 0.08811906008751832,
+    "mannwhitney_u": 9.0,
+    "mannwhitney_p": 1.3592871686593795e-09,
+    "top10_lower": true
+  },
+  "q0.2": {
+    "models": 89,
+    "spearman_official_vs_b_plus": -0.9661744895198822,
+    "spearman_official_vs_b_plus_p": 5.498181337569247e-53,
+    "spearman_official_vs_e_H": -0.9657743890678223,
+    "spearman_official_vs_e_H_p": 9.09280469841515e-53,
+    "top10_mean_b_plus": 0.057211966972579284,
+    "rest_mean_b_plus": 0.10242411576885975,
+    "mannwhitney_u": 6.0,
+    "mannwhitney_p": 4.2477724020605603e-10,
+    "top10_lower": true
+  }
+}

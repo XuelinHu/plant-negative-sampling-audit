@@ -1,0 +1,383 @@
+{
+  "q0.05": {
+    "models": 89,
+    "top10_available": 8,
+    "top10_names": [
+      "VenusREM",
+      "ProSST (K=2048)",
+      "ProSST (K=4096)",
+      "S3F-MSA",
+      "S2F-MSA",
+      "ProSST (K=1024)",
+      "ESCOTT",
+      "ProSST (K=512)"
+    ],
+    "top10_mean_b_plus": 0.0308801237385637,
+    "rest_mean_b_plus": 0.0817197611214291,
+    "top10_fraction_above_005": 0.125,
+    "all_fraction_above_005": 0.8202247191011236,
+    "top10_fraction_above_010": 0.0,
+    "all_fraction_above_010": 0.1797752808988764,
+    "linear_r2_b_plus": 0.8220243949796247,
+    "largest_positive_residuals": [
+      {
+        "Model_rank": 76.0,
+        "official_name": "Site-Independent",
+        "mean_b_plus": 0.1714381509831287,
+        "residual_b_plus": 0.07973868624915384
+      },
+      {
+        "Model_rank": 97.0,
+        "official_name": "xTrimoPGLM-7B-CLM",
+        "mean_b_plus": 0.2425954596244548,
+        "residual_b_plus": 0.04368205958476776
+      },
+      {
+        "Model_rank": 56.0,
+        "official_name": "EVmutation",
+        "mean_b_plus": 0.1077070770490481,
+        "residual_b_plus": 0.031025906754783908
+      },
+      {
+        "Model_rank": 42.0,
+        "official_name": "DeepSequence (ensemble)",
+        "mean_b_plus": 0.0963065071941103,
+        "residual_b_plus": 0.029637533192986537
+      },
+      {
+        "Model_rank": 46.0,
+        "official_name": "DeepSequence (single)",
+        "mean_b_plus": 0.1005875436478071,
+        "residual_b_plus": 0.028912471500113127
+      }
+    ],
+    "largest_negative_residuals": [
+      {
+        "Model_rank": 28.0,
+        "official_name": "ProSST (K=20)",
+        "mean_b_plus": 0.0265481661335905,
+        "residual_b_plus": -0.0321944858021304
+      },
+      {
+        "Model_rank": 91.0,
+        "official_name": "ProteinMPNN",
+        "mean_b_plus": 0.1094986716514032,
+        "residual_b_plus": -0.024752627328418486
+      },
+      {
+        "Model_rank": 10.0,
+        "official_name": "ProSST (K=512)",
+        "mean_b_plus": 0.0206829860986946,
+        "residual_b_plus": -0.024292895933958218
+      },
+      {
+        "Model_rank": 13.0,
+        "official_name": "ProSST (K=128)",
+        "mean_b_plus": 0.0219313538690602,
+        "residual_b_plus": -0.023878877854687647
+      },
+      {
+        "Model_rank": 93.0,
+        "official_name": "ESM2 (8M)",
+        "mean_b_plus": 0.1239204416918621,
+        "residual_b_plus": -0.023263277499932664
+      }
+    ]
+  },
+  "q0.1": {
+    "models": 89,
+    "top10_available": 8,
+    "top10_names": [
+      "VenusREM",
+      "ProSST (K=2048)",
+      "ProSST (K=4096)",
+      "S3F-MSA",
+      "S2F-MSA",
+      "ProSST (K=1024)",
+      "ESCOTT",
+      "ProSST (K=512)"
+    ],
+    "top10_mean_b_plus": 0.03905054354984106,
+    "rest_mean_b_plus": 0.08811906008751827,
+    "top10_fraction_above_005": 0.25,
+    "all_fraction_above_005": 0.9101123595505618,
+    "top10_fraction_above_010": 0.0,
+    "all_fraction_above_010": 0.23595505617977527,
+    "linear_r2_b_plus": 0.900243175473418,
+    "largest_positive_residuals": [
+      {
+        "Model_rank": 76.0,
+        "official_name": "Site-Independent",
+        "mean_b_plus": 0.1416667399722104,
+        "residual_b_plus": 0.04385378831664763
+      },
+      {
+        "Model_rank": 97.0,
+        "official_name": "xTrimoPGLM-7B-CLM",
+        "mean_b_plus": 0.2269414761450297,
+        "residual_b_plus": 0.02519384284083734
+      },
+      {
+        "Model_rank": 46.0,
+        "official_name": "DeepSequence (single)",
+        "mean_b_plus": 0.0997819923829129,
+        "residual_b_plus": 0.021380965704526092
+      },
+      {
+        "Model_rank": 56.0,
+        "official_name": "EVmutation",
+        "mean_b_plus": 0.1027774042361452,
+        "residual_b_plus": 0.01952339631346442
+      },
+      {
+        "Model_rank": 42.0,
+        "official_name": "DeepSequence (ensemble)",
+        "mean_b_plus": 0.0926701328375101,
+        "residual_b_plus": 0.01912208740341728
+      }
+    ],
+    "largest_negative_residuals": [
+      {
+        "Model_rank": 28.0,
+        "official_name": "ProSST (K=20)",
+        "mean_b_plus": 0.0394769408855287,
+        "residual_b_plus": -0.026387217578431953
+      },
+      {
+        "Model_rank": 10.0,
+        "official_name": "ProSST (K=512)",
+        "mean_b_plus": 0.0314952925867228,
+        "residual_b_plus": -0.021023167455429384
+      },
+      {
+        "Model_rank": 13.0,
+        "official_name": "ProSST (K=128)",
+        "mean_b_plus": 0.0333267791721982,
+        "residual_b_plus": -0.02000051107733633
+      },
+      {
+        "Model_rank": 91.0,
+        "official_name": "ProteinMPNN",
+        "mean_b_plus": 0.1213962148803051,
+        "residual_b_plus": -0.017667077351756585
+      },
+      {
+        "Model_rank": 7.0,
+        "official_name": "ProSST (K=1024)",
+        "mean_b_plus": 0.0294934982929146,
+        "residual_b_plus": -0.017363150297561265
+      }
+    ]
+  },
+  "q0.2": {
+    "models": 89,
+    "top10_available": 8,
+    "top10_names": [
+      "VenusREM",
+      "ProSST (K=2048)",
+      "ProSST (K=4096)",
+      "S3F-MSA",
+      "S2F-MSA",
+      "ProSST (K=1024)",
+      "ESCOTT",
+      "ProSST (K=512)"
+    ],
+    "top10_mean_b_plus": 0.05721196697257922,
+    "rest_mean_b_plus": 0.10242411576885971,
+    "top10_fraction_above_005": 0.75,
+    "all_fraction_above_005": 0.9775280898876404,
+    "top10_fraction_above_010": 0.0,
+    "all_fraction_above_010": 0.3595505617977528,
+    "linear_r2_b_plus": 0.9502033894996817,
+    "largest_positive_residuals": [
+      {
+        "Model_rank": 76.0,
+        "official_name": "Site-Independent",
+        "mean_b_plus": 0.1315073316111523,
+        "residual_b_plus": 0.01981609884665042
+      },
+      {
+        "Model_rank": 56.0,
+        "official_name": "EVmutation",
+        "mean_b_plus": 0.1103001768510519,
+        "residual_b_plus": 0.0123695567500057
+      },
+      {
+        "Model_rank": 46.0,
+        "official_name": "DeepSequence (single)",
+        "mean_b_plus": 0.1045967097883104,
+        "residual_b_plus": 0.011252960575082765
+      },
+      {
+        "Model_rank": 42.0,
+        "official_name": "DeepSequence (ensemble)",
+        "mean_b_plus": 0.0994104167395349,
+        "residual_b_plus": 0.010653538414125821
+      },
+      {
+        "Model_rank": 97.0,
+        "official_name": "xTrimoPGLM-7B-CLM",
+        "mean_b_plus": 0.2193974095239575,
+        "residual_b_plus": 0.009470691912008056
+      }
+    ],
+    "largest_negative_residuals": [
+      {
+        "Model_rank": 28.0,
+        "official_name": "ProSST (K=20)",
+        "mean_b_plus": 0.0645802026013779,
+        "residual_b_plus": -0.016914130151651774
+      },
+      {
+        "Model_rank": 10.0,
+        "official_name": "ProSST (K=512)",
+        "mean_b_plus": 0.0543860253399138,
+        "residual_b_plus": -0.014494412471614836
+      },
+      {
+        "Model_rank": 13.0,
+        "official_name": "ProSST (K=128)",
+        "mean_b_plus": 0.0561518531784862,
+        "residual_b_plus": -0.013493063114345533
+      },
+      {
+        "Model_rank": 91.0,
+        "official_name": "ProteinMPNN",
+        "mean_b_plus": 0.1375043469353432,
+        "residual_b_plus": -0.01317528837561649
+      },
+      {
+        "Model_rank": 95.0,
+        "official_name": "ProtGPT2",
+        "mean_b_plus": 0.1644928317387913,
+        "residual_b_plus": -0.012561311177125084
+      }
+    ]
+  },
+  "assay_type": [
+    {
+      "coarse_selection_type": "Activity",
+      "top10": false,
+      "mean_b_plus": 0.07731563164338785,
+      "mean_e_H": 0.030712563463711862,
+      "assays": 43,
+      "models": 88
+    },
+    {
+      "coarse_selection_type": "Activity",
+      "top10": true,
+      "mean_b_plus": 0.03669373562723466,
+      "mean_e_H": 0.01462097936605713,
+      "assays": 43,
+      "models": 8
+    },
+    {
+      "coarse_selection_type": "Binding",
+      "top10": false,
+      "mean_b_plus": 0.11228608367780175,
+      "mean_e_H": 0.04471439211996036,
+      "assays": 13,
+      "models": 87
+    },
+    {
+      "coarse_selection_type": "Binding",
+      "top10": true,
+      "mean_b_plus": 0.06420439079132392,
+      "mean_e_H": 0.025556253891628855,
+      "assays": 13,
+      "models": 8
+    },
+    {
+      "coarse_selection_type": "Expression",
+      "top10": false,
+      "mean_b_plus": 0.09544869983219861,
+      "mean_e_H": 0.03805601861855563,
+      "assays": 18,
+      "models": 87
+    },
+    {
+      "coarse_selection_type": "Expression",
+      "top10": true,
+      "mean_b_plus": 0.051804846672644685,
+      "mean_e_H": 0.020682720835602346,
+      "assays": 18,
+      "models": 8
+    },
+    {
+      "coarse_selection_type": "OrganismalFitness",
+      "top10": false,
+      "mean_b_plus": 0.09086623511738258,
+      "mean_e_H": 0.03471979944032353,
+      "assays": 77,
+      "models": 87
+    },
+    {
+      "coarse_selection_type": "OrganismalFitness",
+      "top10": true,
+      "mean_b_plus": 0.04112228936764474,
+      "mean_e_H": 0.015923772132270364,
+      "assays": 77,
+      "models": 8
+    },
+    {
+      "coarse_selection_type": "Stability",
+      "top10": false,
+      "mean_b_plus": 0.08789165628515526,
+      "mean_e_H": 0.03511793991412648,
+      "assays": 66,
+      "models": 87
+    },
+    {
+      "coarse_selection_type": "Stability",
+      "top10": true,
+      "mean_b_plus": 0.02973601085819641,
+      "mean_e_H": 0.01187716627000224,
+      "assays": 66,
+      "models": 8
+    }
+  ],
+  "msa_depth": [
+    {
+      "MSA_Neff_L_category": "High",
+      "top10": false,
+      "mean_b_plus": 0.08676629692198948,
+      "assays": 72,
+      "models": 87
+    },
+    {
+      "MSA_Neff_L_category": "High",
+      "top10": true,
+      "mean_b_plus": 0.035648192207426176,
+      "assays": 72,
+      "models": 8
+    },
+    {
+      "MSA_Neff_L_category": "Low",
+      "top10": false,
+      "mean_b_plus": 0.08962036466301909,
+      "assays": 36,
+      "models": 87
+    },
+    {
+      "MSA_Neff_L_category": "Low",
+      "top10": true,
+      "mean_b_plus": 0.04011507687666078,
+      "assays": 36,
+      "models": 8
+    },
+    {
+      "MSA_Neff_L_category": "Medium",
+      "top10": false,
+      "mean_b_plus": 0.09014920408932559,
+      "assays": 109,
+      "models": 88
+    },
+    {
+      "MSA_Neff_L_category": "Medium",
+      "top10": true,
+      "mean_b_plus": 0.040946379301110475,
+      "assays": 109,
+      "models": 8
+    }
+  ]
+}
