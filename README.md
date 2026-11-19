@@ -75,4 +75,4 @@ If you use these materials, please cite the manuscript and this archived release
   imply matched negative-label contamination in plant functional data.* Manuscript under
   review.
 - Code repository: <https://github.com/XuelinHu/plant-negative-sampling-audit>
-- Archived release: Zenodo DOI to be added after publication of the archive.
+- Archived release: <https://doi.org/10.5281/zenodo.24362469>
