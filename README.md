@@ -1,7 +1,7 @@
 # Plant negative-sampling audit
 
-Code, benchmark and aggregate results for the study **“Matched predictive performance
-does not imply matched negative-label contamination in plant functional data.”**
+Code, benchmark and aggregate results for the study **“Similar predictive performance
+does not imply equivalent negative-label contamination in plant functional data.”**
 
 The public release contains the reproducibility materials only. It does not contain the
 manuscript source, submitted PDFs, or the original source workbooks.
@@ -71,8 +71,8 @@ licenses and are not redistributed.
 
 If you use these materials, please cite the manuscript and this archived release:
 
-- Wang, J., Hu, X., Chai, X., Liu, Z., & Qu, B. *Matched predictive performance does not
-  imply matched negative-label contamination in plant functional data.* Manuscript under
+- Wang, J., Hu, X., Chai, X., Liu, Z., & Qu, B. *Similar predictive performance does not
+  imply equivalent negative-label contamination in plant functional data.* Manuscript under
   review.
 - Code repository: <https://github.com/XuelinHu/plant-negative-sampling-audit>
 - Archived release: <https://doi.org/10.5281/zenodo.24362469>
