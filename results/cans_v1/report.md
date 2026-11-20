@@ -57,13 +57,13 @@ The only consistent positive result is the **clean-zero baseline**: using visibl
 
 ## Recommendation
 
-Do not claim an accuracy-improvement contribution from CANS on these tasks. Keep the paper on the audit/benchmark track:
+Do not claim an accuracy-improvement contribution from CANS on these tasks. Keep the analysis on the audit/benchmark track:
 
 - ScopeAudit quantifies what a negative label licenses, at what coverage and audit cost.
 - ProteinGym shows the official leaderboard is a strong safety proxy but not a certificate.
 - The plant resources without an official leaderboard are the gap.
 
-If an accuracy paper is still required, the next step is a different research question: a stronger model/feature representation, a task where negative sampling is the measured bottleneck, or a prospective validation. Repeating negative-sampling variants on these tasks is unlikely to produce a stable gain.
+If an accuracy-focused analysis is still required, the next step is a different research question: a stronger model/feature representation, a task where negative sampling is the measured bottleneck, or a prospective validation. Repeating negative-sampling variants on these tasks is unlikely to produce a stable gain.
 
 ## Files
 
@@ -87,4 +87,4 @@ On the 52 rice jobs where CANS and RCSS are common-feasible at epsilon = 0.10:
 | RCSS e10 | -0.058 | -0.013 | -0.014 | 2.18% | 10% |
 | Zeros (45 jobs) | +0.004 | +0.006 | +0.011 | 0% | 0 |
 
-RCSS satisfies the risk bound (mean LP bound 0.095; realized contamination 2.18%), but it is not better than CANS-hard and is worse than the zero-anchored CANS-mix and the clean-zero rule. The risk constraint is not the bottleneck; the hard-negative objective is. RCSS is a negative result for accuracy and a supporting result for the paper's main claim: the audit's value is risk control, not a better hard-negative sampler.
+RCSS satisfies the risk bound (mean LP bound 0.095; realized contamination 2.18%), but it is not better than CANS-hard and is worse than the zero-anchored CANS-mix and the clean-zero rule. The risk constraint is not the bottleneck; the hard-negative objective is. RCSS is a negative result for accuracy and a supporting result for the audit's main claim: the audit's value is risk control, not a better hard-negative sampler.

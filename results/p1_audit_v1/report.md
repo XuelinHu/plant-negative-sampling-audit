@@ -47,13 +47,13 @@ The linear fit leaves model-family structure:
 
 This means the official average Spearman is not a sufficient statistic for tail safety across model families; two models with similar average rank can differ by several percentage points of contamination.
 
-## What this changes for the paper
+## What this changes for the audit
 
 The original P1 hypothesis ("top official models still have unsafe negatives") is only partly supported. The correct claim is:
 
 > Where an official leaderboard exists, it ranks negative-label safety surprisingly well, but it does not certify it. On ProteinGym, rank explains 90–95% of between-model contamination variance; nevertheless, 25% of top-10 models exceed a 5% tolerance at q = 10% and 75% at q = 20%. The remaining variance is model-family structured. The leaderboard reports neither the tail metric nor a tolerance.
 
-This is the "good case." The plant resources without an official leaderboard have no such proxy at all; the cross-resource gap is the paper's main target, not a claim that ProteinGym's leaderboard is broken.
+This is the "good case." The plant resources without an official leaderboard have no such proxy at all; the cross-resource gap is the audit's main target, not a claim that ProteinGym's leaderboard is broken.
 
 ## Next
 

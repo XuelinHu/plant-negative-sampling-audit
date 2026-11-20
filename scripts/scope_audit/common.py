@@ -10,7 +10,6 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'results/scope_audit_v1'
 CACHE = ROOT / 'data/processed/contrapositive_sampling_v1'
 BASE_RESULTS = ROOT / 'results/scope_audit_v1'
-PAPER = ROOT / 'paper/accuracy_not_enough'
 
 SEEDS = [1907, 2909, 3911, 4919, 5923]
 HIDING_FRACTIONS = [0.25, 0.50, 0.75]
