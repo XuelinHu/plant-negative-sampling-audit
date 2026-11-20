@@ -71,5 +71,5 @@ licenses and are not redistributed.
 
 If you use these materials, please cite the archived release:
 
-- Archived release: <https://doi.org/10.5281/zenodo.24362469>
+- Archived release: <https://doi.org/10.5281/zenodo.24362468>
 - Code repository: <https://github.com/XuelinHu/plant-negative-sampling-audit>
